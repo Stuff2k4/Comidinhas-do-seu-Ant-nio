@@ -72,8 +72,31 @@ main a {
     color: #201100;
 }
 
+/* -----------footer--------------- */
 
+footer{
+    background-color: #7E4E2B;
+    height: 175px;
+    border-top: solid 8px #201100;
+    overflow-y: hidden
+}
 
+.redesSociais a img{
+    width:50px;
+    height:50px;
+    
+}
+
+.redesSociais a{
+    text-decoration: none;
+    
+}
+
+.redesSociais{
+    text-align: center;
+    margin-top: 15px;
+    padding: 10px;
+}
 
 
 
