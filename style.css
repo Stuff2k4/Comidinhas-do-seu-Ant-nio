@@ -1,9 +1,112 @@
 * {
     box-sizing: border-box;
     margin: 0;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    overflow-x: hidden;
 }
  body{
     margin: 0;
+    padding: 0;
+    background-color: #F8E1B5;
+ }
+
+/* header */
+ header {
+    background-color: #7E4E2B;
+    height: 125px;
+    border-bottom: solid 8px #201100;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    overflow-y: hidden;
+ }
+h1 {
+    color: #fff;
+    margin-bottom: 7px;
+}
+
+.busca {
+    width: 300px;
+    background-color: #7E4E2B;
+    border: solid 1px #201100;
+    padding: 7px;
+    border-radius: 50px;
+}
+
+input::placeholder{
+    color: white;
+}
+
+/* ---------------------- */
+
+/* body */
+
+main.container {
+    width: 1000px;
+    margin: 30px;
+    display: flex;
+    column-gap: 10px;
+}
+
+section {
+    width: 50%;
+}
+
+img {
+    width: 500px;
+}
+
+section p {
+    position: relative;
+    left: 16px;
+}
+
+section h2 {
+    position: relative;
+    left: 16px;
+}
+
+main a {
+    display: flex;
+    text-decoration: none;
+    color: #201100;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* * {
+    box-sizing: border-box;
+    margin: 0;
+}
+ body{
+    margin: 0;
+    padding: 0;
  }
 header {
    height: 100px;
@@ -32,4 +135,4 @@ img{
     position: relative;
     left: 200px;
     bottom: 100px;
-}
+} */
